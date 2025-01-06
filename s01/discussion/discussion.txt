@@ -7,8 +7,4 @@ Topic in This FCB:
 -HTML
 -CSS
 
-Topic In This FCB:
--Git
--HTML
--CSS
 
