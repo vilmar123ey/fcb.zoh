@@ -3,52 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio </title>
+    <title>MyPortfolio</title>
     <style>
-        #ako{
+        #ako {
             height: 250px;
             width: 250px;
-            border-radius:15px;
+            border-radius: 15px;
             align-items: center;
             display: block;
-            margin-bottom:0px;
+            margin-bottom: 0px;
             padding-bottom: 0px;
             margin: auto;
         }
-        .name{
+        .name {
             text-align: center;
             padding-bottom: 0px;
-            
         }
-        .names{
+        .names {
             margin-top: 0px;
             line-height: -20px;
         }
-        .tuls{
-            height:10px;
-            width:10px ;
+        .tuls {
+            height: 10px;
+            width: 10px;
             background-color: aqua;
         }
-        .gits, .vs, .ht, .cs{
+        .gits, .vs, .ht, .cs {
             display: inline-block;
             margin-right: 0px;
-            height:80px;
+            height: 80px;
             width: 80px;
-            border-radius:10px;
-            
-
-            
+            border-radius: 10px;
         }
-       body{
-        background-color: rgb(63, 133, 133);
-       }
-        .p{
-            display:block;
+        body {
+            background-color: rgb(63, 133, 133);
         }
-        footer{
+        .p {
+            display: block;
+        }
+        footer {
             background-color: antiquewhite;
         }
-        .head{
+        .head {
             background-color: aqua;
             text-align: center;
             font-weight: 100px;
@@ -57,75 +53,89 @@
             padding-top: 10px;
             margin-bottom: 50px;
         }
-        .tools{
+        .tools {
             margin-top: 80px;
             font-size: 15px;
             margin-bottom: 150px;
-
         }
-        .proks{
+        .proks {
             margin-top: 150px;
         }
-        .foot{
+        .foot {
             text-align: center;
             padding-top: 20px;
             padding-bottom: 20px;
         }
-        .back{
+        .back {
             text-align: center;
         }
-
+        .card {
+            text-align: center;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
+    <!-- Header with Navigation -->
     <header class="head"> 
-    <nav>
-        <a href= "#landing" </a>Home</a>
-        <a href="#tols">Tools</a>
-        <a href="#project">Projects</a>
-        <a href="https://www.facebook.com/vilmarjr.ammasi">Contacts</a>
-        <!--"file:///C:/Users/vilma/Downloads/FCB/s02/discussion/MyPortfolio/Portforlio.html"
-        
-        https://www.programiz.com/html/online-compiler/
-        -->
-    </nav>
+        <nav align="center">
+            <a href="#landing">Home</a>
+            <a href="#tools">Tools</a>
+            <a href="#projects">Projects</a>
+            <a href="https://www.facebook.com/vilmarjr.ammasi" target="_blank">Contact</a>
+        </nav>
     </header>
 
-    <img id="ako" src="obra.jpg"> 
-    <div class="name"> <h1 id="names"> Vilmar jr Ammasi</h1>  <h2 id="pos">Software Engineer</h2> </div>
-<br>
-<div class="tools">
-    <h2 align="center" id="tols">Tools I Use</h2>
-    
-    <center>    <img class="gits" src="git.png">
-        <img class="vs" src="vsp.png">
-        <img class="ht" src="html.png">
-        <img class="cs" src="css.png">
+    <!-- Landing Section -->
+    <div id="landing" align="center">
+        <img id="ako" src="obra.jpg"> 
+        <div class="name">
+            <h1 id="names">Vilmar Jr Ammasi</h1>
+            <h2 id="pos">Web Developer</h2>
+        </div>
+        <p align="center">Hi, I'm Vilmar Jr, a passionate web developer with experience in HTML, CSS, JavaScript, and other web technologies.</p>
     </div>
 
-        </center>
-    <div class="proks">    <h2 align="center" id="project">Projects
-         <center>   <h2 align="center">Project1</h2>
-            <img src="sos.PNG">
-            <h2 class="card"></h2><br>
+    <!-- Tools Section -->
+    <div id="tools" align="center">
+        <h2>Tools I Use</h2>
+        <img class="gits" src="git.png" alt="Git">
+        <img class="vs" src="vsp.png" alt="VS Code">
+        <img class="ht" src="html.png" alt="HTML">
+        <img class="cs" src="css.png" alt="CSS">
+    </div>
 
-         <h2 ><img align="center" class="pro"> 
+    <!-- Projects Section -->
+    <div id="projects" align="center">
+        <h2>Projects</h2>
+        
+        <div class="card">
+            <h2>Project 1</h2>
+            <img src="sos.PNG" alt="Project 1">
+        </div>
+
+        <div class="card">
             <h2>Project 2</h2>
-            <img align="center" src="te.PNG">
-            
-            <div >
-                <h2 align="center">Project 3</h2>
-                <img src="kl.PNG"
-            </ div>
+            <img src="te.PNG" alt="Project 2">
+        </div>
 
+        <div class="card">
+            <h2>Project 3</h2>
+            <img src="kl.PNG" alt="Project 3">
+        </div>
+    </div>
 
-            
-            
-        </h2>
-
-</div>
-<footer id="foot">
- <center> <a href="#top" id="back">back to top</a> </center>
-</footer>
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="foot">
+            <p>Connect with me:</p>
+            <a href="https://www.facebook.com/vilmarjr.ammasi" target="_blank">Facebook</a> | 
+            <a href="https://www.linkedin.com/in/vilmarjr" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/vilmarjr" target="_blank">GitHub</a> | 
+            <a href="https://gitlab.com/vilmarjr" target="_blank">GitLab</a>
+            <br>
+            <a href="#top" id="back">Back to Top</a>
+        </div>
+    </footer>
 </body>
 </html>
